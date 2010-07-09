@@ -1,0 +1,11 @@
+#footer {
+	position: absolute;
+	bottom: auto;
+	clear: both;
+	top:expression(eval(document.compatMode &&
+		document.compatMode=='CSS1Compat') ?
+		documentElement.scrollTop
+		+(documentElement.clientHeight-this.clientHeight) - 1
+		: document.body.scrollTop
+		+(document.body.clientHeight-this.clientHeight) - 1);
+}

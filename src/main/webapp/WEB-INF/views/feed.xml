@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="jquery/1.1.3" -->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>bassistance.de</title>
+	<link>http://bassistance.de</link>
+	<description>Bass, Geeks and Rock'n'Roll</description>
+	<pubDate>Wed, 25 Jul 2007 17:25:18 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.0.2</generator>
+	<language>en</language>
+	<item>
+		<title>Why open source?</title>
+		<link>http://bassistance.de/2007/07/13/why-open-source/</link>
+		<comments>http://bassistance.de/2007/07/13/why-open-source/#comments</comments>
+		<pubDate>Fri, 13 Jul 2007 19:11:16 +0000</pubDate>
+		<dc:creator>Jörn</dc:creator>
+		
+		<category>Allgemein</category>
+		<category>Lesenswertes</category>
+		<category>jQuery</category>
+		<category>Java</category>
+		<guid isPermaLink="false">http://bassistance.de/2007/08/13/why-open-source/</guid>
+		<description><![CDATA[ 	While glancing over Dr. Dobb&#8217;s article Getting Started With jQuery I read this:
+Whether the motivation behind making their labors freely available is a matter of seeking recognition, resume building, free advertising for other services, bragging rights, or just plain old-fashioned altruism, we can gratefully take advantage of these tools. jQuery is one such tool.
+I [...]]]></description>
+			<content:encoded><![CDATA[ 	<p>While glancing over Dr. Dobb&#8217;s article <a href="http://www.ddj.com/dept/java/201000935">Getting Started With jQuery</a> I read this:</p>
+<blockquote><p>Whether the motivation behind making their labors freely available is a matter of seeking recognition, resume building, free advertising for other services, bragging rights, or just plain old-fashioned altruism, we can gratefully take advantage of these tools. jQuery is one such tool.</p></blockquote>
+<p>I think altruism is very far away from the true motivation in most cases. Most free and open source software I can think of is done because someone needed it anyway. And instead of just writing that little tool you needed that one day, why not release it to the great public <a title="Read Jeff's entry about 'Pick a licsense, any license!', its worth its words, like almost everything he writes" href="http://www.codinghorror.com/blog/archives/000833.html">under some appropiate license</a>? If the tool is worth its code its quite likely that someone else has use for it, too. And because they don&#8217;t have to pay anything and can read and modify the source code, its very easy for them to contribute back whatever they can. And using that feedback is again helping the initial author.</p>
+<p>You can find good hints at the eat-your-own-dogfoot principle and where it was applied and where not in a lot of open source products. Consider the update manager in <a href="http://www.eclipse.org">Eclipse</a>. To start with, its hidden under the Help menu. You have to manually copy&#038;paste links from update sites into it. And you always have to choose &#8220;search for new features to install&#8221; even if you want to look for updates, because looking for updates most likely never finishes and yields no result after bugging you 20 times for a mirror to choose from a list. That is the stuff the developers (of Eclipse) mostlikely themselves don&#8217;t use, and therefore don&#8217;t care about.</p>
+<p>On the other hand, Eclipse&#8217; Java Development Tools is state-of-the-art: I&#8217;m using it now for almost three years and yet I find new helpful features everyday. Its refactoring support alone is worth some gold. Ever wanted to introduce a new parameter in an interface method and its four implementations? Its something very ugly when doing by hand, with Eclipse its simple as hell: Refactor -> &#8220;Change method signature&#8221;, and you&#8217;re nearly done. Learned how to use that just today.</p>
+<p>Eclipse is backed by a big corporation (IBM) and a daily growing list of both small and big eclipse foundation members. This isn&#8217;t the case on projects like jQuery. When asking John Resig about his motivation for releasing jQuery he answered:</p>
+<blockquote><p>I&#8217;d have to say Altruism + Recognition - resume building was a nice side effect, but I didn&#8217;t think about that</p></blockquote>
+<p>And he added:</p>
+<blockquote><p>I mean, I guess if you&#8217;re wondering why open source vs. &#8220;closed source&#8221; (license-restricted). I guess, technically one could get recognition from either, but I don&#8217;t like restrictive software. I&#8217;ve grown up using open source, and benefited so much from it. It just doesn&#8217;t make sense to me to release closed software. I don&#8217;t see how it could possibly benefit me, or help others.</p>
+<p>So for me, restricted software just doesn&#8217;t feel right - whereas open source feels very good. Helping people and feeding back into the community is really what does it for me. Seeing it do well is a nice side effect - I mean, on my web site alone I&#8217;ve released over 70 pieces of open source software. A couple have done really well - only one really took off.</p>
+<p>So I definitely wasn&#8217;t expecting recognition, but it was nice that it happened.</p></blockquote>
+<p>As always he has some good points to argument with. I spent and keep spending a lot of time working on my jQuery plugins because I know (at least now) that I will be most likely developing web applications in the next years (though so far they are all 100% corporate intranet applications, but still running in browsers). And its great to use features of your own plugins in your own project that someone else contributed. Even questions for support help a lot, because you know where you have to improve APIs and examples.</p>
+<p>Releasing JavaScript code as opensource is somehow natural anyway. Reading JavaScript code in the source of other&#8217;s website has been done for years now, and giving the code a property license to motivate &#8220;readers&#8221; to give feedback and contribute has helped a ton to improve the overall quality of written JavaScript by several magnitudes.</p>
+<p>Currently I&#8217;m investigating ways to leverage those plugins on the server-side too, which is especially interesting when considering the <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">validation plugin</a>. John&#8217;s work on implementing <a href="http://ejohn.org/blog/bringing-the-browser-to-the-server/">a browser environment in Rhino</a> is amazing. It already is able to run the full jQuery test suite, and the possibilities for building web application frameworks based on jQuery are daunting.</p>
+<p>I hope I can also opensource some of the framework code I&#8217;m developing at work some time in the feature. There is already some really nice JSF and Spring related code in our repository&#8230;
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://bassistance.de/2007/07/13/why-open-source/feed/</wfw:commentRSS>
+	</item>
+</channel>
+</rss>

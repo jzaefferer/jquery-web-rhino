@@ -1,0 +1,253 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>bassistance.de</title>
+	
+  <link rel="stylesheet" href="../style.css" type="text/css" media="screen"/>
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://bassistance.de/feed/" />
+	<link rel="pingback" href="http://bassistance.de/xmlrpc.php" />
+
+  
+  <script type="text/javascript" src="../scripts/jquery.pack.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.validate.js"></script>
+  <script type="text/javascript" src="../scripts/validate.js"></script>
+  <script type="text/javascript" src="../scripts/bassistance.js"></script>
+  
+
+	</head>
+<body id="home" class="log">
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://bassistance.de" title="Zur Startseite" >bassistance.de</a></h1>
+
+			<div id="subtitle">
+				Bass, Geeks and Rock&#8217;n'Roll</div>
+		</div>
+    
+		<div id="navmenu">
+      <a title="bassistance.de" href="http://bassistance.de">Home</a>
+      <a href="http://bassistance.de/jquery-plugins/">jQuery plugins</a><a href="http://bassistance.de/obligatorisches/">Obligatorisches</a>    </div>
+
+<div id="maincol">
+<div class="col">
+
+	<div class="nextprev">
+		<span class="next">&nbsp;<a href="http://bassistance.de/2007/07/25/templating-purely-practical/">Templating: Purely practical?</a> &raquo; </span>
+		<span class="prev">&laquo; <a href="http://bassistance.de/2007/07/11/er-bockt-sie-bockt-es-bockt-ich-verbocke/">Er bockt, sie bockt, es bockt, ich verbocke.</a>&nbsp;</span>
+	</div>
+
+	<div class="entry">
+			<div class="single-metahead">
+				<span class="single-title" id="post-191">
+					Why open source?			
+				</span>
+			</div>
+			<div class="single-meta">
+				<span id="leftmeta">13. Juli 2007 um 20:11</span>
+
+				<span id="rightmeta"><a href="http://bassistance.de/category/allgemein/" title="Alle Beitr&auml;ge in Allgemein ansehen" rel="category tag">Allgemein</a>, <a href="http://bassistance.de/category/lesenswertes/" title="Alle Beitr&auml;ge in Lesenswertes ansehen" rel="category tag">Lesenswertes</a>, <a href="http://bassistance.de/category/jquery/" title="Alle Beitr&auml;ge in jQuery ansehen" rel="category tag">jQuery</a>, <a href="http://bassistance.de/category/java/" title="Alle Beitr&auml;ge in Java ansehen" rel="category tag">Java</a></span>
+			</div>
+
+			<div class="entrybody" style="margin-top:30px;">
+				 	<p>While glancing over Dr. Dobb&#8217;s article <a href="http://www.ddj.com/dept/java/201000935">Getting Started With jQuery</a> I read this:</p>
+
+<blockquote><p>Whether the motivation behind making their labors freely available is a matter of seeking recognition, resume building, free advertising for other services, bragging rights, or just plain old-fashioned altruism, we can gratefully take advantage of these tools. jQuery is one such tool.</p></blockquote>
+<p>I think altruism is very far away from the true motivation in most cases. Most free and open source software I can think of is done because someone needed it anyway. And instead of just writing that little tool you needed that one day, why not release it to the great public <a title="Read Jeff's entry about 'Pick a licsense, any license!', its worth its words, like almost everything he writes" href="http://www.codinghorror.com/blog/archives/000833.html">under some appropiate license</a>? If the tool is worth its code its quite likely that someone else has use for it, too. And because they don&#8217;t have to pay anything and can read and modify the source code, its very easy for them to contribute back whatever they can. And using that feedback is again helping the initial author.</p>
+<p>You can find good hints at the eat-your-own-dogfoot principle and where it was applied and where not in a lot of open source products. Consider the update manager in <a href="http://www.eclipse.org">Eclipse</a>. To start with, its hidden under the Help menu. You have to manually copy&#038;paste links from update sites into it. And you always have to choose &#8220;search for new features to install&#8221; even if you want to look for updates, because looking for updates most likely never finishes and yields no result after bugging you 20 times for a mirror to choose from a list. That is the stuff the developers (of Eclipse) mostlikely themselves don&#8217;t use, and therefore don&#8217;t care about.</p>
+
+<p>On the other hand, Eclipse&#8217; Java Development Tools is state-of-the-art: I&#8217;m using it now for almost three years and yet I find new helpful features everyday. Its refactoring support alone is worth some gold. Ever wanted to introduce a new parameter in an interface method and its four implementations? Its something very ugly when doing by hand, with Eclipse its simple as hell: Refactor -> &#8220;Change method signature&#8221;, and you&#8217;re nearly done. Learned how to use that just today.</p>
+<p>Eclipse is backed by a big corporation (IBM) and a daily growing list of both small and big eclipse foundation members. This isn&#8217;t the case on projects like jQuery. When asking John Resig about his motivation for releasing jQuery he answered:</p>
+<blockquote><p>I&#8217;d have to say Altruism + Recognition - resume building was a nice side effect, but I didn&#8217;t think about that</p></blockquote>
+<p>And he added:</p>
+
+<blockquote><p>I mean, I guess if you&#8217;re wondering why open source vs. &#8220;closed source&#8221; (license-restricted). I guess, technically one could get recognition from either, but I don&#8217;t like restrictive software. I&#8217;ve grown up using open source, and benefited so much from it. It just doesn&#8217;t make sense to me to release closed software. I don&#8217;t see how it could possibly benefit me, or help others.</p>
+<p>So for me, restricted software just doesn&#8217;t feel right - whereas open source feels very good. Helping people and feeding back into the community is really what does it for me. Seeing it do well is a nice side effect - I mean, on my web site alone I&#8217;ve released over 70 pieces of open source software. A couple have done really well - only one really took off.</p>
+<p>So I definitely wasn&#8217;t expecting recognition, but it was nice that it happened.</p></blockquote>
+
+<p>As always he has some good points to argument with. I spent and keep spending a lot of time working on my jQuery plugins because I know (at least now) that I will be most likely developing web applications in the next years (though so far they are all 100% corporate intranet applications, but still running in browsers). And its great to use features of your own plugins in your own project that someone else contributed. Even questions for support help a lot, because you know where you have to improve APIs and examples.</p>
+<p>Releasing JavaScript code as opensource is somehow natural anyway. Reading JavaScript code in the source of other&#8217;s website has been done for years now, and giving the code a property license to motivate &#8220;readers&#8221; to give feedback and contribute has helped a ton to improve the overall quality of written JavaScript by several magnitudes.</p>
+<p>Currently I&#8217;m investigating ways to leverage those plugins on the server-side too, which is especially interesting when considering the <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">validation plugin</a>. John&#8217;s work on implementing <a href="http://ejohn.org/blog/bringing-the-browser-to-the-server/">a browser environment in Rhino</a> is amazing. It already is able to run the full jQuery test suite, and the possibilities for building web application frameworks based on jQuery are daunting.</p>
+
+<p>I hope I can also opensource some of the framework code I&#8217;m developing at work some time in the feature. There is already some really nice JSF and Spring related code in our repository&#8230;
+</p>
+				<span class="single-author">-Jörn</span>
+			</div>  
+					
+				</div>
+	
+	<div id="commentblock">
+		<div id="comments" class="comment-header">
+			<span class="metalink">
+				<a href="http://bassistance.de/2007/07/11/er-bockt-sie-bockt-es-bockt-ich-verbocke/feed/" title="Feed für Kommentare dieses Artikels" class="commentlink">
+					<img src="../images/transparent.gif" alt="rss" />
+				</a>
+			</span>
+			<span>Noch keine Kommentare vorhanden / 1 Kommentar / 3 Kommentare</span>
+		</div>
+		
+		<div class="comment-track">
+												<a href="http://bassistance.de/2007/07/11/er-bockt-sie-bockt-es-bockt-ich-verbocke/trackback/" title="Trackback URI" rel="nofollow">Trackback für diesen Artikel</a>
+									</div>
+  
+		<ol id="commentlist">
+							<li id="comment-36627">
+					<div class="commentname">
+						<span class="commentauthor"><a href='http://www.erdeanthomas.de' rel='external'>Thomas</a></span>
+					</div>
+					<div class="commentinfo">
+					   <span class="commentdate">
+													  12. Juli 2007 |09:54					   </span>
+					</div>
+					<div class="commentbody">
+						<p>ßauwn Junge! Dann können wir Sonntag ja dick starten, was? Besorg dir ma das Spiel!
+</p>
+					</div>
+				</li>
+					</ol>
+ 	</div>
+
+
+
+  <div id="commentsformheader">
+						<span id="commentshead">Kommentar zu diesem Artikel schreiben</span>
+			
+		<div id="commentsform">
+			<form action="http://bassistance.de/wp-comments-post.php" method="post" id="commentform">
+							<p>
+					<label title="Benötigt" for="author" class="commentlabel"><strong>Name</strong></label>
+          <input title="Benötigt" type="text" name="author" id="author" class="commentText" value="" size="22" tabindex="1" />
+				</p>
+				<p>
+					<label title="Benötigt, wird nicht veröffentlicht" for="email" class="commentlabel"><strong>E-Mail</strong></label>
+          <input title="Benötigt, wird nicht veröffentlicht" type="text" name="email" id="email" class="commentText" value="" size="22" tabindex="2" />
+				</p>
+				<p>
+					<label for="url" class="commentlabel"><strong>URL</strong></label>
+          <input type="text" name="url" id="url" class="commentText" value="" size="22" tabindex="3" />
+				</p>
+								
+			<p>
+				<textarea title="Bitte einen Kommentar eingeben" name="body" id="comment" class="commentArea" cols="50" rows="10" tabindex="4"> </textarea>
+			</p>
+			
+			
+			<p>
+				<input name="submit" type="submit" id="submit" tabindex="5" value="Kommentar absenden" />
+				<input type="hidden" name="comment_post_ID" value="190" />
+			</p>
+						</form>
+	   	</div>
+	  </div>
+
+	
+</div>
+</div>
+<div id="navcol">
+    
+    <h2>Aktuellste Einträge</h2>
+		<ul>
+																<li><a title="Beitrag 'Why open source?' ansehen" href="http://bassistance.de/2007/07/13/why-open-source/">Why open source?</a></li>
+						<li><a title="Beitrag 'Er bockt, sie bockt, es bockt, ich verbocke.' ansehen" href="http://bassistance.de/2007/07/11/er-bockt-sie-bockt-es-bockt-ich-verbocke/">Er bockt, sie bockt, es bockt, ich verbocke.</a></li>
+						<li><a title="Beitrag 'Surface Computing' ansehen" href="http://bassistance.de/2007/07/10/189/">Surface Computing</a></li>
+
+						<li><a title="Beitrag 'Release: Accordion menu plugin 1.4' ansehen" href="http://bassistance.de/2007/07/09/release-accordion-menu-plugin-14/">Release: Accordion menu plugin 1.4</a></li>
+						<li><a title="Beitrag 'About client-side form validation and frameworks' ansehen" href="http://bassistance.de/2007/07/04/about-client-side-form-validation-and-frameworks/">About client-side form validation and frameworks</a></li>
+						<li><a title="Beitrag 'Release: Tooltip plugin 1.1' ansehen" href="http://bassistance.de/2007/07/04/release-tooltip-plugin-11/">Release: Tooltip plugin 1.1</a></li>
+					</ul> 
+
+		<h2>Kategorien</h2>
+		<ul>
+				<li><a href="http://bassistance.de/category/allgemein/" title="Was sonst nirgends reinpasst oder nicht rein will">Allgemein</a>
+
+</li>
+	<li><a href="http://bassistance.de/category/css/" title="Hacks, Tips and Tricks">CSS</a>
+</li>
+	<li><a href="http://bassistance.de/category/getting-started/" title="Tutorials &#038; Guides">Getting Started</a>
+</li>
+	<li><a href="http://bassistance.de/category/java/" title="Alle unter Java abgelegten Beitr&auml;ge ansehen">Java</a>
+</li>
+	<li><a href="http://bassistance.de/category/jquery/" title="New Wave Javascript">jQuery</a>
+</li>
+
+	<li><a href="http://bassistance.de/category/kurz-und-gut/" title="Wenn es schnell gehen muss&#8230;">Kurz und gut</a>
+</li>
+	<li><a href="http://bassistance.de/category/lesenswertes/" title="Am Anfang war das Wort&#8230;">Lesenswertes</a>
+</li>
+	<li><a href="http://bassistance.de/category/musik/" title="Neues aus der Welt der (eigenen) Musik">Musik</a>
+</li>
+	<li><a href="http://bassistance.de/category/online-comics/" title="(Un-)regelmäßig erscheinende, online veröffentlichte Comics">Online Comics</a>
+</li>
+	<li><a href="http://bassistance.de/category/jquery/plugin-parade/" title="Once in a while I&#8217;m picking a jQuery plugin that deserves some attention">Plugin Parade</a>
+
+</li>
+	<li><a href="http://bassistance.de/category/sehenswertes/" title="Genau hinschauen!">Sehenswertes</a>
+</li>
+	<li><a href="http://bassistance.de/category/tex/" title="Alle unter TeX abgelegten Beitr&auml;ge ansehen">TeX</a>
+</li>
+	<li><a href="http://bassistance.de/category/tools/" title="Alle unter Tools abgelegten Beitr&auml;ge ansehen">Tools</a>
+</li>
+	<li><a href="http://bassistance.de/category/wii/" title="Alle unter Wii abgelegten Beitr&auml;ge ansehen">Wii</a>
+</li>
+
+		</ul>
+
+		<ul>
+			<li id="linkcat-2"><h2>Bands</h2>
+	<ul>
+<li><a href="http://www.mooncircus.de" title="Irgendwas zwischen Jazz Rock und Progmetal">mooncircus</a></li>
+<li><a href="http://www.remaining.de" title="just fucking Heavy Metal">Remaining</a></li>
+<li><a href="http://www.trigon.in/" title="Die Kernfusion!">Trigon</a></li>
+
+	</ul>
+</li>
+	<li id="linkcat-1"><h2>Blogs</h2>
+	<ul>
+<li><a href="http://www.axel-koch-website.de/" title="Axels Seite, in Farbe und bunt">Axel</a></li>
+<li><a href="http://blog.chaoz.org/" title="Gerrit, Bandkollege, Philo-Student und Geek">Gerrit</a></li>
+<li><a href="http://www.marcus-kaestner.de/blog/" title="Juhu! heizis Blog - Wissenschaftliche und lyrische Weisheiten">Marcus</a></li>
+<li><a href="http://www.uergsel.de/" title="Seltsames von Sal">Sal</a></li>
+<li><a href="http://erdeanthomas.de/" title="Thomas, das völlig verrückte Huhn">Thomas</a></li>
+
+<li><a href="http://www.baalrok.de" title="Filmrezensionen und Details aus dem Leben eines Informatikstudenten">Tomasz</a></li>
+<li><a href="http://www.progblog.de/" title="Der BBS-Chef Udo Gerhards schreibt hier über Filme, Musik, Literatur und anderes">Udo</a></li>
+
+	</ul>
+</li>
+	<li id="linkcat-3"><h2>Weitere</h2>
+	<ul>
+<li><a href="http://www.babyblaue-seiten.de/" title="Ein Riesenberg Rezensionen von Profi-Amateur-Rezensenten">Babyblaue Seiten</a></li>
+<li><a href="http://blogs.panprogtikum.de/" title="Alle Blogs aus dem [progrock-dt]-Umfeld aggregiert, in Rosa.">Panprogtikum Blogs</a></li>
+
+<li><a href="http://www.progrock-dt.de/" title="Die deutsche Progrock-Mailingliste mit Chat im Quakenet">[progrock-dt]</a></li>
+
+	</ul>
+</li>
+		</ul>	
+
+    <span class="metalink">
+      <a href="http://bassistance.de/feed/" title="Feed für alle Artikel" class="feedlink">
+        <img src="../images/transparent.gif" style="padding:0px;margin:0px;" alt="rss" />
+      </a>
+    </span>
+
+    
+    <br />
+    <br />
+		
+	<div id="searchdiv">
+      <form id="searchform" method="get" action=""><div>
+		<input title="Hier Suchbegriff eingeben und mit Enter Suche starten" type="text" name="s" id="s" value="search" size="15" /></div>
+	  </form>
+	</div>
+
+</div>
+
+    <div id="footer">
+		Jörn Zaefferer 2007 - Best viewed with both eyes open!
+	</div>
+</div>
+
+</body>
+</html>
